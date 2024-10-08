@@ -48,6 +48,8 @@ nmap gt <Action>(GotoTypeDeclaration)
 nmap gs <Action>(GotoSuperMethod)
 nmap gT <Action>(GotoTest)
 
+nmap <Leader>yr <Action>(CopyReference)
+nmap <Leader>yf <Action>(CopyFileName)
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
