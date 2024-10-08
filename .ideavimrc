@@ -45,10 +45,14 @@ nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
 nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 
 " Go to
+nmap gb <Action>(Back)
+nmap gf <Action>(Forward)
 nmap gi <Action>(GotoImplementation)
 nmap gt <Action>(GotoTypeDeclaration)
 nmap gs <Action>(GotoSuperMethod)
 nmap gT <Action>(GotoTest)
+nmap ge <Action>(GotoNextError)
+nmap gE <Action>(GotoPreviousError)
 
 " Yank
 nmap <Leader>yr <Action>(CopyReference)
