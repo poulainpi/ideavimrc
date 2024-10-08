@@ -33,6 +33,7 @@ nmap <Leader>fc <Action>(GotoClass)
 nmap <Leader>fh <Action>(RecentFiles)
 nmap <Leader>fs <Action>(RecentChangedFiles)
 
+" Git
 nmap <Leader>gf <Action>(Git.Fetch)
 nmap <Leader>gb <Action>(Git.Branches)
 nmap <Leader>gu <Action>(Vcs.UpdateProject)
@@ -43,13 +44,23 @@ nmap <Leader>gd <Action>(Compare.LastVersion)
 nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
 nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 
+" Go to
 nmap gi <Action>(GotoImplementation)
 nmap gt <Action>(GotoTypeDeclaration)
 nmap gs <Action>(GotoSuperMethod)
 nmap gT <Action>(GotoTest)
 
+" Yank
 nmap <Leader>yr <Action>(CopyReference)
 nmap <Leader>yf <Action>(CopyFileName)
+
+" Refactor
+nmap <Leader>rr <Action>(RenameElement)
+nmap <Leader>rv <Action>(IntroduceVariable)
+nmap <Leader>rm <Action>(ExtractFunction)
+nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
+nmap <Leader>sw <Action>(SurroundWith)
+
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
