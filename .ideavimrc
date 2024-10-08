@@ -99,9 +99,13 @@ nmap <Leader>rm <Action>(ExtractFunction)
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 nmap <Leader>sw <Action>(SurroundWith)
 
-" Code
+" Code / Close
 nmap <Leader>cg <Action>(Generate)
 nmap <Leader>ch <Action>(ShowIntentionActions)
+nmap <Leader>ct <Action>(CloseContent)
+nmap <Leader>co <Action>(CloseAllEditorsButActive)
+nmap <Leader>ca <Action>(HideAllWindows)
+nmap <Leader>cc <Action>(HideAllWindows)<Action>(ActivateProjectToolWindow)
 
 " Tree
 nmap <Leader>to <Action>(ActivateProjectToolWindow)
