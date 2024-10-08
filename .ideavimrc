@@ -118,6 +118,11 @@ nmap <Leader>rk <Action>(Stop)
 nmap <Leader>rs <Action>(ChooseRunConfiguration)
 nmap <Leader>ro <Action>(ActivateRunToolWindow)
 
+" Window
+nmap <Leader>wv <Action>(SplitVertically)
+nmap <Leader>ws <Action>(SplitVertically)
+nmap <Leader>wh <Action>(SplitHorizontally)
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
