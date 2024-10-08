@@ -65,6 +65,9 @@ nmap <Leader>rm <Action>(ExtractFunction)
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 nmap <Leader>sw <Action>(SurroundWith)
 
+" Code
+nmap <Leader>cg <Action>(Generate)
+nmap <Leader>ch <Action>(ShowIntentionActions)
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
