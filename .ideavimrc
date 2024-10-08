@@ -3,6 +3,7 @@ set easymotion
 set sneak
 set ReplaceWithRegister
 set argtextobj
+set textobj-indent
 set highlightedyank
 set commentary
 set vim-paragraph-motion
