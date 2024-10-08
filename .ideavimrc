@@ -28,6 +28,9 @@ nnoremap <Leader>O O<Esc>
 " Y to yank the end of the line
 nnoremap Y y$
 
+" Cancel leader key sequence with <Esc> without jumping to a new line
+nnoremap <Leader><Esc> :<C-u><CR>
+
 nmap <Leader>: <Action>(RunAnything)
 
 nmap <Leader>ff <Action>(GotoFile)
@@ -74,6 +77,13 @@ nmap <Leader>ch <Action>(ShowIntentionActions)
 " Tree
 nmap <Leader>to <Action>(ActivateProjectToolWindow)
 nnoremap <Leader>tf :NERDTreeFocus<CR>
+
+" Run
+nmap <Leader>rt <Action>(RunClass)
+nmap <Leader>rr <Action>(Rerun)
+nmap <Leader>rk <Action>(Stop)
+nmap <Leader>rs <Action>(ChooseRunConfiguration)
+nmap <Leader>ro <Action>(ActivateRunToolWindow)
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
