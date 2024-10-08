@@ -1,3 +1,5 @@
+set NERDTree
+
 " Cursor in the middle of the screen
 set scrolloff=999
 
@@ -68,6 +70,10 @@ nmap <Leader>sw <Action>(SurroundWith)
 " Code
 nmap <Leader>cg <Action>(Generate)
 nmap <Leader>ch <Action>(ShowIntentionActions)
+
+" Tree
+nmap <Leader>to <Action>(ActivateProjectToolWindow)
+nnoremap <Leader>tf :NERDTreeFocus<CR>
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
