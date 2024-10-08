@@ -1,5 +1,6 @@
 set NERDTree
 set easymotion
+set sneak
 
 " Cursor in the middle of the screen
 set scrolloff=999
