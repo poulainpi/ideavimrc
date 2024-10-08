@@ -43,6 +43,12 @@ nmap <Leader>gd <Action>(Compare.LastVersion)
 nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
 nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 
+nmap gi <Action>(GotoImplementation)
+nmap gt <Action>(GotoTypeDeclaration)
+nmap gs <Action>(GotoSuperMethod)
+nmap gT <Action>(GotoTest)
+
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
