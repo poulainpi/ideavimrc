@@ -26,13 +26,24 @@ nnoremap <Leader>O O<Esc>
 " Y to yank the end of the line
 nnoremap Y y$
 
-nnoremap <Leader>: <Action>(RunAnything)
+nmap <Leader>: <Action>(RunAnything)
 
-nnoremap <Leader>ff <Action>(GotoFile)
-nnoremap <Leader>fc <Action>(GotoClass)
-nnoremap <Leader>fh <Action>(RecentFiles)
-nnoremap <Leader>fs <Action>(RecentChangedFiles)
+nmap <Leader>ff <Action>(GotoFile)
+nmap <Leader>fc <Action>(GotoClass)
+nmap <Leader>fh <Action>(RecentFiles)
+nmap <Leader>fs <Action>(RecentChangedFiles)
 
+nmap <Leader>gf <Action>(Git.Fetch)
+nmap <Leader>gb <Action>(Git.Branches)
+nmap <Leader>gu <Action>(Vcs.UpdateProject)
+nmap <Leader>ga <Action>(Annotate)
+nmap <Leader>gp <Action>(Vcs.Push)
+nmap <Leader>gl <Action>(Vcs.Show.Log)
+nmap <Leader>gd <Action>(Compare.LastVersion)
+nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
+nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
+
+" nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
 set notimeout
@@ -55,6 +66,3 @@ Plug 'tpope/vim-commentary'
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
-
-nnoremap <leader>fc    :action GotoClass<CR>
-vnoremap <leader>fc    :action GotoClass<CR>
