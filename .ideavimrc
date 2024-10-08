@@ -2,6 +2,7 @@ set NERDTree
 set easymotion
 set sneak
 set multiple-cursors
+set surround
 set ReplaceWithRegister
 set argtextobj
 set textobj-indent
