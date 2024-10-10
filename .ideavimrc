@@ -118,6 +118,10 @@ nmap <Leader>rk <Action>(Stop)
 nmap <Leader>rs <Action>(ChooseRunConfiguration)
 nmap <Leader>ro <Action>(ActivateRunToolWindow)
 
+" Debug
+nmap <Leader>dt <Action>(DebugClass)
+nmap <Leader>do <Action>(ActivateDebugToolWindow)
+
 " Window
 nmap <Leader>wv <Action>(SplitVertically)
 nmap <Leader>ws <Action>(SplitVertically)
