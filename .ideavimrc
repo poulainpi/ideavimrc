@@ -34,8 +34,8 @@ set ignorecase
 " When searching try to be smart about cases
 set smartcase
 
-" EasyMotion key to backspace
-map <BS> <Plug>(easymotion-prefix)
+" EasyMotion search key to backspace
+map <BS> <Plug>(easymotion-s)
 
 " Multiple cursors
 nmap <C-n> <Plug>NextWholeOccurrence
