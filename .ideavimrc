@@ -16,6 +16,9 @@ let mapleader = " "
 " Cursor in the middle of the screen
 set scrolloff=999
 
+" Set relative line number
+set relativenumber
+
 " Do incremental searching
 set incsearch
 
@@ -108,8 +111,8 @@ nmap <Leader>ca <Action>(HideAllWindows)
 nmap <Leader>cc <Action>(HideAllWindows)<Action>(ActivateProjectToolWindow)
 
 " Tree
-nmap <Leader>to <Action>(ActivateProjectToolWindow)
-nnoremap <Leader>tf :NERDTreeFocus<CR>
+nnoremap <Leader>to :NERDTree<CR>
+nmap <Leader>tf <Action>(SelectInProjectView)
 
 " Run
 nmap <Leader>rt <Action>(RunClass)
