@@ -64,10 +64,15 @@ nnoremap <Leader><Esc> :<C-u><CR>
 
 nmap <Leader>: <Action>(RunAnything)
 
+" File
 nmap <Leader>ff <Action>(GotoFile)
+vmap <Leader>ff <Action>(GotoFile)
+
 nmap <Leader>fc <Action>(GotoClass)
-nmap <Leader>fh <Action>(RecentFiles)
-nmap <Leader>fs <Action>(RecentChangedFiles)
+vmap <Leader>fc <Action>(GotoClass)
+
+nmap <Leader>fr <Action>(RecentFiles)
+nmap <Leader>fe <Action>(RecentChangedFiles)
 
 " Git
 nmap <Leader>gf <Action>(Git.Fetch)
