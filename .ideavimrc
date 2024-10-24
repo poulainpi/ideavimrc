@@ -107,6 +107,17 @@ nmap <Leader>rm <Action>(ExtractFunction)
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 nmap <Leader>sw <Action>(SurroundWith)
 
+" Run
+nmap <Leader>rt <Action>(RunClass)
+nmap <Leader>rc <Action>(Run)
+nmap <Leader>rk <Action>(Stop)
+nmap <Leader>rs <Action>(ChooseRunConfiguration)
+nmap <Leader>ro <Action>(ActivateRunToolWindow)
+
+" Debug
+nmap <Leader>dt <Action>(DebugClass)
+nmap <Leader>do <Action>(ActivateDebugToolWindow)
+
 " Code / Close
 nmap <Leader>cg <Action>(Generate)
 nmap <Leader>ch <Action>(ShowIntentionActions)
@@ -118,17 +129,6 @@ nmap <Leader>cc <Action>(HideAllWindows)<Action>(ActivateProjectToolWindow)
 " Tree
 nnoremap <Leader>to :NERDTree<CR>
 nmap <Leader>tf <Action>(SelectInProjectView)
-
-" Run
-nmap <Leader>rt <Action>(RunClass)
-nmap <Leader>rr <Action>(Rerun)
-nmap <Leader>rk <Action>(Stop)
-nmap <Leader>rs <Action>(ChooseRunConfiguration)
-nmap <Leader>ro <Action>(ActivateRunToolWindow)
-
-" Debug
-nmap <Leader>dt <Action>(DebugClass)
-nmap <Leader>do <Action>(ActivateDebugToolWindow)
 
 " Window
 nmap <Leader>wv <Action>(SplitVertically)
