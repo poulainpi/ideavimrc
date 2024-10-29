@@ -135,6 +135,10 @@ nmap <Leader>wv <Action>(SplitVertically)
 nmap <Leader>ws <Action>(SplitVertically)
 nmap <Leader>wh <Action>(SplitHorizontally)
 
+" Project
+nmap <Leader>po <Action>(ManageRecentProjects)
+nmap <Leader>ps <Action>(OpenProjectWindows)
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
