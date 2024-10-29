@@ -124,7 +124,7 @@ nmap <Leader>ch <Action>(ShowIntentionActions)
 nmap <Leader>ct <Action>(CloseContent)
 nmap <Leader>co <Action>(CloseAllEditorsButActive)
 nmap <Leader>ca <Action>(HideAllWindows)
-nmap <Leader>cc <Action>(HideAllWindows)<Action>(ActivateProjectToolWindow)
+nmap <Leader>cf <Action>(ReformatCode)
 
 " Tree
 nnoremap <Leader>to :NERDTree<CR>
