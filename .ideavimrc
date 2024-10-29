@@ -1,6 +1,5 @@
 set NERDTree
 set easymotion
-set sneak
 set multiple-cursors
 set surround
 set ReplaceWithRegister
@@ -37,8 +36,8 @@ set ignorecase
 " When searching try to be smart about cases
 set smartcase
 
-" EasyMotion search key to backspace
-map <BS> <Plug>(easymotion-s)
+" EasyMotion search key to s
+map s <Plug>(easymotion-s)
 
 " Multiple cursors
 nmap <C-n> <Plug>NextWholeOccurrence
@@ -141,6 +140,11 @@ nmap <Leader>ps <Action>(OpenProjectWindows)
 
 " Shell
 nmap <Leader>so <Action>(ActivateTerminalToolWindow)
+
+" IDE
+nmap <Leader>is <Action>(ShowSettings)
+nmap <Leader>ip <Action>(WelcomeScreen.Plugins)
+nmap <Leader>ir <Action>(RestartIde)
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
