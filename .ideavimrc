@@ -36,6 +36,9 @@ set ignorecase
 " When searching try to be smart about cases
 set smartcase
 
+" Remove the delay to switch to visual mode using the mouse
+set visualdelay=0
+
 " EasyMotion search key to s
 map s <Plug>(easymotion-s)
 
