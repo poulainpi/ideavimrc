@@ -139,6 +139,9 @@ nmap <Leader>wh <Action>(SplitHorizontally)
 nmap <Leader>po <Action>(ManageRecentProjects)
 nmap <Leader>ps <Action>(OpenProjectWindows)
 
+" Shell
+nmap <Leader>so <Action>(ActivateTerminalToolWindow)
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
