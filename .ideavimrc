@@ -131,11 +131,14 @@ nmap <Leader>do <Action>(ActivateDebugToolWindow)
 
 " Code / Close
 nmap <Leader>cg <Action>(Generate)
+nmap <Leader>cf <Action>(ReformatCode)
+
 nmap <Leader>ch <Action>(ShowIntentionActions)
+vmap <Leader>ch <Action>(ShowIntentionActions)
+
 nmap <Leader>ct <Action>(CloseContent)
 nmap <Leader>co <Action>(CloseAllEditorsButActive)
 nmap <Leader>ca <Action>(HideAllWindows)
-nmap <Leader>cf <Action>(ReformatCode)
 
 " Tree
 nnoremap <Leader>to :NERDTree<CR>
@@ -153,10 +156,16 @@ nmap <Leader>ps <Action>(OpenProjectWindows)
 " Shell
 nmap <Leader>so <Action>(ActivateTerminalToolWindow)
 
-" IDE
+" IDE / IA
 nmap <Leader>is <Action>(ShowSettings)
 nmap <Leader>ip <Action>(WelcomeScreen.Plugins)
 nmap <Leader>ir <Action>(RestartIde)
+
+nmap <Leader>io <Action>(ActivateGitHubCopilotChatToolWindow)
+nmap <Leader>in <Action>(copilot.newChatSession)<Action>(ActivateGitHubCopilotChatToolWindow)
+
+nmap <Leader>ic <Action>(OpenInlineChatAction)
+vmap <Leader>ic <Action>(OpenInlineChatAction)
 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
