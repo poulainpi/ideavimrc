@@ -45,6 +45,9 @@ set matchit
 " EasyMotion search key to s
 map s <Plug>(easymotion-s)
 
+" Make the home key go to the first non-whitespace on the line
+map <Home> ^
+
 " Multiple cursors
 nmap <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
