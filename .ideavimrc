@@ -39,6 +39,9 @@ set smartcase
 " Remove the delay to switch to visual mode using the mouse
 set visualdelay=0
 
+" Extended matching for the % operator
+set matchit
+
 " EasyMotion search key to s
 map s <Plug>(easymotion-s)
 
