@@ -115,12 +115,6 @@ nmap <Leader>rv <Action>(IntroduceVariable)
 nmap <Leader>rm <Action>(ExtractFunction)
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 
-nmap <Leader>sw <Action>(SurroundWith)
-vmap <Leader>sw <Action>(SurroundWith)
-
-nmap <Leader>st <Action>(SurroundWithLiveTemplate)
-vmap <Leader>st <Action>(SurroundWithLiveTemplate)
-
 " Run
 nmap <Leader>rt <Action>(RunClass)
 nmap <Leader>ra <Action>(Run)
@@ -156,8 +150,16 @@ nmap <Leader>wh <Action>(SplitHorizontally)
 nmap <Leader>po <Action>(ManageRecentProjects)
 nmap <Leader>ps <Action>(OpenProjectWindows)
 
-" Shell
+" Shell / Surround / Show
 nmap <Leader>so <Action>(ActivateTerminalToolWindow)
+
+nmap <Leader>sw <Action>(SurroundWith)
+vmap <Leader>sw <Action>(SurroundWith)
+
+nmap <Leader>st <Action>(SurroundWithLiveTemplate)
+vmap <Leader>st <Action>(SurroundWithLiveTemplate)
+
+nmap <Leader>sp <Action>(ParameterInfo)
 
 " IDE / IA
 nmap <Leader>is <Action>(ShowSettings)
