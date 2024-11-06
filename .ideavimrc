@@ -111,8 +111,13 @@ nmap <Leader>yf <Action>(CopyFileName)
 
 " Refactor
 nmap <Leader>rr <Action>(RenameElement)
+
 nmap <Leader>rv <Action>(IntroduceVariable)
+vmap <Leader>rv <Action>(IntroduceVariable)
+
 nmap <Leader>rm <Action>(ExtractFunction)
+vmap <Leader>rm <Action>(ExtractFunction)
+
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 
 " Run
