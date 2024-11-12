@@ -129,6 +129,7 @@ nmap <Leader>ro <Action>(ActivateRunToolWindow)
 
 " Debug
 nmap <Leader>dt <Action>(DebugClass)
+nmap <Leader>da <Action>(Debug)
 nmap <Leader>do <Action>(ActivateDebugToolWindow)
 
 " Code / Close
@@ -165,6 +166,7 @@ nmap <Leader>st <Action>(SurroundWithLiveTemplate)
 vmap <Leader>st <Action>(SurroundWithLiveTemplate)
 
 nmap <Leader>sp <Action>(ParameterInfo)
+nmap <Leader>se <Action>(ShowErrorDescription)
 
 " IDE / IA
 nmap <Leader>is <Action>(ShowSettings)
