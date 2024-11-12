@@ -95,13 +95,13 @@ nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 nmap <Leader>gr <Action>(Vcs.RollbackChangedLines)
 
 " Go to
-nmap gb <Action>(Back)
-nmap gf <Action>(Forward)
 nmap gi <Action>(GotoImplementation)
 nmap gu <Action>(ShowUsages)
 nmap gt <Action>(GotoTypeDeclaration)
 nmap gs <Action>(GotoSuperMethod)
 nmap gT <Action>(GotoTest)
+nmap gl <Action>(JumpToLastChange)
+nmap gn <Action>(JumpToNextChange)
 nmap ge <Action>(GotoNextError)
 nmap gE <Action>(GotoPreviousError)
 
@@ -131,6 +131,7 @@ nmap <Leader>ro <Action>(ActivateRunToolWindow)
 nmap <Leader>dt <Action>(DebugClass)
 nmap <Leader>da <Action>(Debug)
 nmap <Leader>do <Action>(ActivateDebugToolWindow)
+nmap <Leader>dp <Action>(ToggleLineBreakpoint)
 
 " Code / Close
 nmap <Leader>cg <Action>(Generate)
