@@ -180,6 +180,19 @@ nmap <Leader>in <Action>(copilot.newChatSession)<Action>(ActivateGitHubCopilotCh
 nmap <Leader>ic <Action>(OpenInlineChatAction)
 vmap <Leader>ic <Action>(OpenInlineChatAction)
 
+" Harpoon
+nmap <Leader><A-n> <Action>(SetHarpoon1)
+nmap <Leader><A-e> <Action>(SetHarpoon2)
+nmap <Leader><A-i> <Action>(SetHarpoon3)
+nmap <Leader><A-a> <Action>(SetHarpoon4)
+
+nmap <A-n> <Action>(GotoHarpoon1)
+nmap <A-e> <Action>(GotoHarpoon2)
+nmap <A-i> <Action>(GotoHarpoon3)
+nmap <A-a> <Action>(GotoHarpoon4)
+
+nmap <A-o> <Action>(ShowHarpoon)
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
