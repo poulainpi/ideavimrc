@@ -42,6 +42,9 @@ set visualdelay=0
 " Extended matching for the % operator
 set matchit
 
+" Disable beeping on error
+set visualbell on
+
 " EasyMotion search key to s
 map s <Plug>(easymotion-s)
 
