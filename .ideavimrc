@@ -199,6 +199,10 @@ nmap <A-a> <Action>(GotoHarpoon4)
 
 nmap <A-o> <Action>(ShowHarpoon)
 
+" Misc
+nmap <Leader>md <Action>(ToggleDistractionFreeMode)
+nmap <Leader>mv <Action>(IdeaVim.ReloadVimRc.reload)
+ 
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
