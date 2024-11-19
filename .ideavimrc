@@ -75,7 +75,7 @@ nnoremap <Leader><Esc> :<C-u><CR>
 
 nmap <Leader>: <Action>(RunAnything)
 
-" File
+" File / Find
 nmap <Leader>ff <Action>(GotoFile)
 vmap <Leader>ff <Action>(GotoFile)
 
@@ -84,6 +84,8 @@ vmap <Leader>fc <Action>(GotoClass)
 
 nmap <Leader>fr <Action>(RecentFiles)
 nmap <Leader>fe <Action>(RecentChangedFiles)
+
+nmap <Leader>fa <Action>(GotoAction)
 
 " Git
 nmap <Leader>gf <Action>(Git.Fetch)
@@ -191,12 +193,12 @@ vmap <Leader>ic <Action>(OpenInlineChatAction)
 nmap <Leader><A-n> <Action>(SetHarpoon1)
 nmap <Leader><A-e> <Action>(SetHarpoon2)
 nmap <Leader><A-i> <Action>(SetHarpoon3)
-nmap <Leader><A-a> <Action>(SetHarpoon4)
+nmap <Leader><A-f> <Action>(SetHarpoon4)
 
 nmap <A-n> <Action>(GotoHarpoon1)
 nmap <A-e> <Action>(GotoHarpoon2)
 nmap <A-i> <Action>(GotoHarpoon3)
-nmap <A-a> <Action>(GotoHarpoon4)
+nmap <A-f> <Action>(GotoHarpoon4)
 
 nmap <A-o> <Action>(ShowHarpoon)
 
