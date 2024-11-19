@@ -9,6 +9,9 @@ set highlightedyank
 set commentary
 set vim-paragraph-motion
 
+" Give Vim the shortcut priority instead of IntelliJ
+sethandler n:vim
+
 " Set leader key to space
 let mapleader = " "
 
@@ -51,6 +54,12 @@ map s <Plug>(easymotion-s)
 " Make the home key go to the first non-whitespace on the line
 map <Home> ^
 
+" Command as ctrl on Macos
+nnoremap <D-o> <C-o>
+nnoremap <D-i> <C-i>
+nnoremap <D-r> <C-r>
+nnoremap <D-v> <C-v>
+
 " Multiple cursors
 nmap <C-n> <Plug>NextWholeOccurrence
 xmap <C-n> <Plug>NextWholeOccurrence
@@ -62,6 +71,19 @@ nmap <leader><C-n> <Plug>AllWholeOccurrences
 xmap <leader><C-n> <Plug>AllWholeOccurrences
 nmap <leader>g<C-n> <Plug>AllOccurrences
 xmap <leader>g<C-n> <Plug>AllOccurrences
+
+" Macos Multiple cursors
+nmap <D-n> <Plug>NextWholeOccurrence
+xmap <D-n> <Plug>NextWholeOccurrence
+nmap g<D-n> <Plug>NextOccurrence
+xmap g<D-n> <Plug>NextOccurrence
+xmap <D-x> <Plug>SkipOccurrence
+xmap <D-p> <Plug>RemoveOccurrence
+nmap <leader><D-n> <Plug>AllWholeOccurrences
+xmap <leader><D-n> <Plug>AllWholeOccurrences
+nmap <leader>g<D-n> <Plug>AllOccurrences
+xmap <leader>g<D-n> <Plug>AllOccurrences
+
 
 " Insert blank line
 nnoremap <Leader>o o<Esc>
@@ -215,7 +237,7 @@ nmap <A-o> <Action>(ShowHarpoon)
 nmap <Leader>md <Action>(ToggleDistractionFreeMode)
 nmap <Leader>mv <Action>(IdeaVim.ReloadVimRc.reload)
 nmap <Leader>mt <Action>(VimFindActionIdAction)
- 
+
 " nmap <Leader>gh <Action>(LocalHistory.ShowHistory)
 
 set which-key
