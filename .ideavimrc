@@ -151,6 +151,7 @@ vmap <Leader>ch <Action>(ShowIntentionActions)
 nmap <Leader>ct <Action>(CloseContent)
 nmap <Leader>co <Action>(CloseAllEditorsButActive)
 nmap <Leader>ca <Action>(HideAllWindows)
+nmap <Leader>cn <Action>(CloseAllNotifications)
 
 " Tree
 nnoremap <Leader>to :NERDTree<CR>
