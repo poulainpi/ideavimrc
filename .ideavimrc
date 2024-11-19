@@ -101,6 +101,7 @@ nmap <Leader>gd <Action>(Compare.LastVersion)
 nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
 nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 nmap <Leader>gr <Action>(Vcs.RollbackChangedLines)
+nmap <Leader>gC <Action>(Vcs.ShowConsoleTab)
 
 " Go to
 nmap gi <Action>(GotoImplementation)
