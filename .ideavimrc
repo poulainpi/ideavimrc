@@ -167,6 +167,13 @@ nmap <Leader>wh <Action>(SplitHorizontally)
 nmap <Leader>po <Action>(ManageRecentProjects)
 nmap <Leader>ps <Action>(OpenProjectWindows)
 
+" New
+nmap <Leader>no <Action>(NewElement)
+nmap <Leader>ns <Action>(NewScratchFile)
+
+" Move
+nmap <Leader>mf <Action>(Move)
+
 " Shell / Surround / Show
 nmap <Leader>so <Action>(ActivateTerminalToolWindow)
 
