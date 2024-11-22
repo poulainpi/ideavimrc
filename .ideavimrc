@@ -8,6 +8,7 @@ set textobj-indent
 set highlightedyank
 set commentary
 set vim-paragraph-motion
+set exchange
 
 " Give Vim the shortcut priority instead of IntelliJ
 sethandler n:vim
@@ -191,6 +192,7 @@ nmap <Leader>ps <Action>(OpenProjectWindows)
 
 " New
 nmap <Leader>no <Action>(NewElement)
+nmap <Leader>nd <Action>(NewDir)
 nmap <Leader>ns <Action>(NewScratchFile)
 
 " Move
