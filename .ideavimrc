@@ -125,10 +125,11 @@ nmap <Leader>gc <Action>(Git.Commit.And.Push.Executor)
 nmap <Leader>gp <Action>(Vcs.Push)
 nmap <Leader>gF <Action>(Vcs.Push.Force)
 nmap <Leader>gl <Action>(Vcs.Show.Log)
-nmap <Leader>gd <Action>(Compare.LastVersion)
+nmap <Leader>gd <Action>(Vcs.ShowDiffChangedLines)
 nmap <Leader>gh <Action>(Vcs.ShowTabbedFileHistory)
 nmap <Leader>go <Action>(Vcs.Show.Local.Changes)
 nmap <Leader>gr <Action>(Vcs.RollbackChangedLines)
+vmap <Leader>gr <Action>(Vcs.RollbackChangedLines)
 nmap <Leader>gC <Action>(Vcs.ShowConsoleTab)
 
 " Go to
