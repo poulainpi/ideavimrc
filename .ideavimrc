@@ -216,6 +216,7 @@ vmap <Leader>st <Action>(SurroundWithLiveTemplate)
 nmap <Leader>sp <Action>(ParameterInfo)
 nmap <Leader>se <Action>(ShowErrorDescription)
 nmap <Leader>sd <Action>(QuickJavaDoc)
+nmap <Leader>sm <Action>(FileStructurePopup)
 
 " IDE / IA
 nmap <Leader>is <Action>(ShowSettings)
