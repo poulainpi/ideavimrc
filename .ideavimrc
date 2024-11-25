@@ -14,7 +14,7 @@ set exchange
 sethandler n:vim
 
 " Except for
-sethandler <C-v> a:ide
+sethandler <C-v> i:ide
 sethandler <C-f> a:ide
 
 " Set leader key to space
