@@ -179,6 +179,8 @@ vmap <Leader>ch <Action>(ShowIntentionActions)
 
 nmap <Leader>co <Action>(OverrideMethods)
 nmap <Leader>ci <Action>(ImplementMethods)
+nmap <Leader>cc <Action>(CollapseAllRegions)
+nmap <Leader>ce <Action>(ExpandAllRegions)
 
 nmap <Leader>ct <Action>(CloseContent)
 nmap <Leader>ca <Action>(HideAllWindows)
