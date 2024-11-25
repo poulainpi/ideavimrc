@@ -225,6 +225,7 @@ nmap <Leader>sm <Action>(FileStructurePopup)
 nmap <Leader>is <Action>(ShowSettings)
 nmap <Leader>ip <Action>(WelcomeScreen.Plugins)
 nmap <Leader>ir <Action>(RestartIde)
+nmap <Leader>iu <Action>(CheckForUpdate)
 
 nmap <Leader>io <Action>(ActivateGitHubCopilotChatToolWindow)
 nmap <Leader>in <Action>(copilot.newChatSession)<Action>(ActivateGitHubCopilotChatToolWindow)
