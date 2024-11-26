@@ -144,8 +144,8 @@ nmap ge <Action>(GotoNextError)
 nmap gE <Action>(GotoPreviousError)
 
 " Yank
-nmap <Leader>yr <Action>(CopyReference)
-nmap <Leader>yf <Action>(CopyFileName)
+nmap yr <Action>(CopyReference)
+nmap yf <Action>(CopyFileName)
 
 " Refactor
 nmap <Leader>rr <Action>(RenameElement)
