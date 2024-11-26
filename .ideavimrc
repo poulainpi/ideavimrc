@@ -153,8 +153,8 @@ nmap <Leader>rr <Action>(RenameElement)
 nmap <Leader>rv <Action>(IntroduceVariable)
 vmap <Leader>rv <Action>(IntroduceVariable)
 
-nmap <Leader>rm <Action>(ExtractFunction)
-vmap <Leader>rm <Action>(ExtractFunction)
+nmap <Leader>rm <Action>(ExtractMethod)
+vmap <Leader>rm <Action>(ExtractMethod)
 
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 
