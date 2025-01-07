@@ -162,6 +162,12 @@ vmap <Leader>rv <Action>(IntroduceVariable)
 nmap <Leader>rm <Action>(ExtractMethod)
 vmap <Leader>rm <Action>(ExtractMethod)
 
+nmap <Leader>rf <Action>(Replace)
+vmap <Leader>rf <Action>(Replace)
+
+nmap <Leader>re <Action>(ReplaceInPath)
+vmap <Leader>re <Action>(ReplaceInPath)
+
 nmap <Leader>rl <Action>(Refactorings.QuickListPopupAction)
 
 " Run
