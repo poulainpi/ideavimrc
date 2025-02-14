@@ -231,6 +231,9 @@ nmap <Leader>st <Action>(SurroundWithLiveTemplate)
 vmap <Leader>st <Action>(SurroundWithLiveTemplate)
 
 nmap <Leader>sp <Action>(ParameterInfo)
+nmap <C-p> <Action>(ParameterInfo) 
+imap <C-p> <Action>(ParameterInfo)
+
 nmap <Leader>se <Action>(ShowErrorDescription)
 nmap <Leader>sd <Action>(QuickJavaDoc)
 nmap <Leader>sm <Action>(FileStructurePopup)
