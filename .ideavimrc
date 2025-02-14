@@ -211,6 +211,7 @@ nmap <Leader>wh <Action>(SplitHorizontally)
 " Project
 nmap <Leader>po <Action>(ManageRecentProjects)
 nmap <Leader>ps <Action>(OpenProjectWindows)
+nmap <Leader>pc <Action>(CloseProject)
 
 " New
 nmap <Leader>no <Action>(NewElement)
