@@ -153,6 +153,9 @@ nmap gE <Action>(GotoPreviousError)
 nmap yr <Action>(CopyReference)
 nmap yf <Action>(CopyFileName)
 
+" Opposite of J
+nmap K i<Enter><Esc>
+
 " Refactor
 nmap <Leader>rr <Action>(RenameElement)
 
