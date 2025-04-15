@@ -153,6 +153,9 @@ nmap gE <Action>(GotoPreviousError)
 nmap yr <Action>(CopyReference)
 nmap yf <Action>(CopyFileName)
 
+" Paste
+noremap P "0p
+
 " Opposite of J
 nmap K i<Enter><Esc>
 
