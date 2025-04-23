@@ -1,5 +1,4 @@
 set NERDTree
-set easymotion
 set multiple-cursors
 set surround
 set ReplaceWithRegister
@@ -55,8 +54,8 @@ set matchit
 " Disable beeping on error
 set visualbell on
 
-" EasyMotion search key to s
-map s <Plug>(easymotion-s)
+" Flash search key to s
+map s <Action>(flash.search)
 
 " Make the home key go to the first non-whitespace on the line
 map <Home> ^
