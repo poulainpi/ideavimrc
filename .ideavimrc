@@ -191,9 +191,12 @@ nmap <Leader>dp <Action>(ToggleLineBreakpoint)
 " Code / Close
 nmap <Leader>cg <Action>(Generate)
 nmap <Leader>cf <Action>(ReformatCode)
+nmap gf <Action>(ReformatCode)
 
 nmap <Leader>ch <Action>(ShowIntentionActions)
 vmap <Leader>ch <Action>(ShowIntentionActions)
+nmap g. <Action>(ShowIntentionActions)
+vmap g. <Action>(ShowIntentionActions)
 
 nmap <Leader>co <Action>(OverrideMethods)
 nmap <Leader>ci <Action>(ImplementMethods)
