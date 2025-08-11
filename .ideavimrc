@@ -147,6 +147,7 @@ nmap gl <Action>(JumpToLastChange)
 nmap gn <Action>(JumpToNextChange)
 nmap ge <Action>(GotoNextError)
 nmap gE <Action>(GotoPreviousError)
+nnoremap gp <C-^><CR>
 
 " Yank
 nmap yr <Action>(CopyReference)
