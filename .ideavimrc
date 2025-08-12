@@ -118,6 +118,7 @@ nmap <Leader>fr <Action>(RecentFiles)
 nmap <Leader>fe <Action>(RecentChangedFiles)
 
 nmap <Leader>fa <Action>(GotoAction)
+nmap <Leader>fm <Action>(Move)
 
 " Git
 nmap <Leader>gf <Action>(Git.Fetch)
@@ -226,9 +227,6 @@ nmap <Leader>pc <Action>(CloseProject)
 nmap <Leader>no <Action>(NewElement)
 nmap <Leader>nd <Action>(NewDir)
 nmap <Leader>ns <Action>(NewScratchFile)
-
-" Move
-nmap <Leader>mf <Action>(Move)
 
 " Shell / Surround / Show
 nmap <Leader>so <Action>(ActivateTerminalToolWindow)
