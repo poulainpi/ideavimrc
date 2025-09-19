@@ -16,7 +16,10 @@ sethandler n:vim
 
 " Except for
 sethandler <C-v> i:ide
+sethandler <D-v> i:ide
+
 sethandler <C-f> a:ide
+sethandler <D-f> a:ide
 
 " Set leader key to space
 let mapleader = " "
